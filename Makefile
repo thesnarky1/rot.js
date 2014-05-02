@@ -1,6 +1,7 @@
 VERSION = $(shell head -1 < VERSION)
 SOURCES = 	src/rot.js \
-			src/text.js \
+			src/text/text.js \
+			src/text/cursive.js \
 			src/js/array.js \
 			src/js/number.js \
 			src/js/string.js \
